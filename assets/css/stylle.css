@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+:root{
+    background-color: #4582c7;
+    color: white;
+    box-sizing: border-box;
+}
+h1 + p{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    min-width: 500px;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 23px;
+}
+.form-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 20px;
+    /* max-width: 60%; */
+}
+.input-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    
+
+    /* width: 0%; */
+}
+.wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column nowrap;
+
+}
+.wraper input{
+    width: 100%;
+    /* max-width: 100%; */
+}
+.radio-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex: 0 60px;
+    border: 2px solid white;
+    padding: 12px 5px;
+}
+.radio-container input[type="radio"]{
+    width: initial;
+    height: 15px;
+    margin: 0 10px;
+}
+.checkbox-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex: 0 510px;
+}
+.checkbox-container input[type="checkbox"]{
+    margin: 0 10px;
+}
